@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الأطفال - Pie Bye</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>تسجيل الأطفال في فعالية Pie Bye</h1>
+        <form action="#" method="post">
+            <label for="child-name">اسم الطفل:</label>
+            <input type="text" id="child-name" name="child-name" required>
+
+            <label for="age">عمر الطفل:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="gender">الجنس:</label>
+            <select id="gender" name="gender" required>
+                <option value="ذكر">ذكر</option>
+                <option value="أنثى">أنثى</option>
+            </select>
+
+            <label for="favorite-activity">النشاط المفضل:</label>
+            <select id="favorite-activity" name="favorite-activity" required>
+                <option value="الطبخ">الطبخ</option>
+                <option value="الألعاب الإلكترونية">الألعاب الإلكترونية</option>
+            </select>
+
+            <label for="registration-duration">مدة التسجيل:</label>
+            <select id="registration-duration" name="registration-duration" required>
+                <option value="يومي">يومي</option>
+                <option value="أسبوعي">أسبوعي</option>
+                <option value="شهري">شهري</option>
+            </select>
+
+            <button type="submit">تسجيل</button>
+        </form>
+    </div>
+</body>
+</html>
